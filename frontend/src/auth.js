@@ -1,6 +1,6 @@
 import axios  from "axios";
 import {toast} from 'react-toastify'
-const endPoint = "http://localhost:8000";
+const endPoint = "https://ticketbooking-backend.vercel.app";
 
 const bookTicket = async (no_of_seats)=>{
    try {
